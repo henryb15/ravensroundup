@@ -1,0 +1,412 @@
+body {
+  margin: 0px;
+}
+
+h2 {
+  color: red;
+  font-family: Stahls-Tiffany;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.link:hover {
+    color: red;
+  }
+
+.games li {
+    font-family: evogria;
+    font-size: 20px;
+    transition: 2s;
+}
+
+.games li:hover {
+    font-size: 30px;
+  }
+
+.roster li {
+    font-family: UniSans;
+    font-size: 20px;
+    transition: 2s;
+    padding: 10px;
+}
+
+.roster li:hover {
+    font-size: 30px;
+  }
+
+.move-right {
+    padding-left: 50px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.logo{
+    width: 600px;
+    max-width: 100%;
+    height: 400pxpx;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    z-index: -1;
+}
+
+
+  .red-box {
+    background-color: rgb(191, 20, 20);
+    position: relative;
+    width: 100%;
+    height: 245px;
+    z-index: -1;
+    margin-top: 0px;
+  }
+
+  .black-box {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    height: 85px;
+    box-shadow: 0px 5px 5px rgb(185, 185, 185);
+    left: 0;
+  }
+
+  @font-face {
+    font-family: Stahls-Tiffany;
+    src: url(StahlsTiffany.ttf);
+  }
+
+  @font-face {
+    font-family: evogria;
+    src: url(Evogria.otf);
+  }
+
+  @font-face {
+    font-family: UniSans;
+    src: url(UniSansHeavy.otf);
+  }
+
+  .link {
+    font-family: evogria;
+    color: #111;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .right {
+    display: block;
+    margin-left: 100%;
+    margin-right: 0%;
+  }
+
+  .boxtext {
+    top: 20px;
+    bottom: 20px;
+    font-size: 45px;
+    position: relative;
+    color: white;
+    max-width: 100%;
+  }
+
+  .offset {
+    position: relative;
+    left: 20px;
+  }
+
+  #no-background {
+    background-color: white;
+  }
+
+  th, td {
+    padding: 15px;
+    text-align: center;
+    font-family: UniSans;
+  }
+
+  .row1 {
+    background-color: rgb(191, 20, 20);
+    color: white;
+}
+
+.number-row{
+    background-color: rgb(224, 224, 224);
+}
+
+.number-row:hover {background-color: rgb(195, 195, 195);}
+
+.relative-position{
+    position: static;
+}
+
+.number {
+    font-family: UniSans;
+    color: red;
+    text-align: right;
+}
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+}
+
+.float-left {
+    float: left;
+}
+
+.float-center {
+    float: center;
+}
+
+.float-right {
+    float: right;
+}
+
+.img-stretch {
+    transition: 2s;
+    width: 80%;
+    height: 80%;
+}
+
+.img-stretch:hover {
+    width: 90%;
+    height: 90%;
+}
+
+.lineup-stretch {
+    transition: 2s;
+    width: 30%;
+    height: 30%;
+    margin: 10px;
+}
+
+.lineup-stretch:hover {
+    width: 40%;
+    height: 40%;
+}
+
+.list-split {
+    column-count: 2;
+    column-gap: 5px;
+}
+
+.table-grow {
+    transition: 2s;
+    height: 50%;
+    width: 60%;
+}
+
+.table-grow:hover {
+    height: 60%;
+    width: 70%;
+}
+
+.game-font {
+    font-family: UniSans;
+    font-size: 50px;
+    position: relative;
+    color: rgb(191, 20, 20);
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.menu {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #454545;
+  }
+  
+  .menu li {
+    float: left;
+    font-family: Stahls-Tiffany;
+    color: white;
+  }
+  
+  .menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .menu-active {
+    background-color: rgb(191, 20, 20);
+  }
+
+  .standings-image img{
+    width: 35px;
+    height: 25px;
+  }
+
+  /* Style The Dropdown Button */
+ .dropbtn {
+    background-color: rgb(191, 20, 20);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: UniSans;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: UniSans;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: rgb(141, 0, 0);
+  }
+
+  .standings-mobile-size {
+    margin-left: 50px;
+}
+
+.about-width {
+  max-width: 600px;
+}
+
+.logo-scale {
+  width: 600px;
+  max-width: 100%;
+  height: 360px;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  float: right;
+  right: 60px;
+  top: 410px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .logo-scale {
+    display: none;
+  }
+}
+
+.standings-table {
+  margin-left: 20px;
+}
+
+.background-mobile {
+  background-image: url("white\ background.jpeg");
+  background-size: 600px;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.shadow {
+  box-shadow: 0px 5px 5px rgb(185, 185, 185);
+}
+
+.shadow-img img {
+  box-shadow: 5px 5px 5px rgb(185, 185, 185);
+}
+
+/* marquee */
+
+.marquee {
+  height: 50px;	
+  overflow: auto;
+  position: relative;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+ }
+ .marquee p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  font-family: UniSans;
+ 
+  /* Starting position */
+  -moz-transform:translateX(100%);
+  -webkit-transform:translateX(100%);	
+  transform:translateX(100%);
+  /* Apply animation to this element */	
+  -moz-animation: scroll-left 15s linear infinite;
+  -webkit-animation: scroll-left 15s linear infinite;
+  animation: scroll-left 15s linear infinite;
+ }
+ /* Move it (define the animation) */
+ @-moz-keyframes scroll-left {
+  0%   { -moz-transform: translateX(100%); }
+  100% { -moz-transform: translateX(-100%); }
+ }
+ @-webkit-keyframes scroll-left {
+  0%   { -webkit-transform: translateX(100%); }
+  100% { -webkit-transform: translateX(-100%); }
+ }
+ @keyframes scroll-left {
+  0%   { 
+  -moz-transform: translateX(100%); /* Browser bug fix */
+  -webkit-transform: translateX(100%); /* Browser bug fix */
+  transform: translateX(100%); 		
+  }
+  100% { 
+  -moz-transform: translateX(-100%); /* Browser bug fix */
+  -webkit-transform: translateX(-100%); /* Browser bug fix */
+  transform: translateX(-100%); 
+  }
+ }
+ 
