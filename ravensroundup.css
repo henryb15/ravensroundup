@@ -90,17 +90,17 @@ p {
 
   @font-face {
     font-family: Stahls-Tiffany;
-    src: url(StahlsTiffany.ttf);
+    src: url(fonts/StahlsTiffany.ttf);
   }
 
   @font-face {
     font-family: evogria;
-    src: url(Evogria.otf);
+    src: url(fonts/Evogria.otf);
   }
 
   @font-face {
     font-family: UniSans;
-    src: url(UniSansHeavy.otf);
+    src: url(fonts/UniSansHeavy.otf);
   }
 
   .link {
@@ -423,3 +423,9 @@ ul.no-bullets {
   }
  }
  
+
+ .video-size {
+  width: 1120px;
+  height: 630px;
+
+ }
