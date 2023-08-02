@@ -427,5 +427,6 @@ ul.no-bullets {
  .video-size {
   width: 1120px;
   height: 630px;
+  max-width: 90%;
 
  }
