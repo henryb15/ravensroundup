@@ -89,17 +89,17 @@ h2 {
   
     @font-face {
       font-family: Stahls-Tiffany;
-      src: url(fonts/StahlsTiffany.ttf);
+      src: url(StahlsTiffany.ttf);
     }
   
     @font-face {
       font-family: evogria;
-      src: url(fonts/Evogria.otf);
+      src: url(Evogria.otf);
     }
   
     @font-face {
       font-family: UniSans;
-      src: url(fonts/UniSansHeavy.otf);
+      src: url(UniSansHeavy.otf);
     }
   
     .link {
