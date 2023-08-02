@@ -361,7 +361,7 @@ h4 {
  background: rgb(0, 0, 0);
  color: rgb(255, 255, 255);
 }
-.marquee p {
+.marquee h4 {
  position: absolute;
  width: 600px;
  height: 100%;
