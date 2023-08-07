@@ -108,6 +108,11 @@ h4 {
     src: url(UniSansHeavy.otf);
   }
 
+  @font-face {
+    font-family: Orgon;
+    src: url(Orgon-Light.otf);
+  }
+
   .link {
     font-family: evogria;
     color: #111;
@@ -434,4 +439,17 @@ ul.no-bullets {
   height: 630px;
   max-width: 90%;
 
+ }
+
+ .writeup {
+  font-family: Orgon;
+  max-width: 50%;
+  margin-left: 40px;
+ }
+
+ .writeup_title {
+  font-family: Orgon;
+  max-width: 60%;
+  margin-left: 40px;
+  font-size: 30px;
  }
