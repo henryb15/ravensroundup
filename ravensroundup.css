@@ -132,12 +132,12 @@ h4 {
   }
 
   .boxtext {
-    top: 20px;
+    top: 24px;
     bottom: 20px;
-    font-size: 45px;
+    font-size: 38px;
     position: relative;
     color: white;
-    max-width: 100%;
+    max-width: 90%;
   }
 
   .offset {
